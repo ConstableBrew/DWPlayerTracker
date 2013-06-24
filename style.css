@@ -1,0 +1,91 @@
+/*
+Dungeon World (DW) is a tabletop roleplaying game. This application tells you how long since you have asked a PC a question while playing DW.
+2013-06-23
+Based on Player Tracker by Gino (http://ginof.com/apps/player_tracker/)
+Modifications by Michael Brewer
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+*/
+body{
+	/*text-transform: uppercase;*/
+	
+	font-family: Arial;
+	font-weight: bold;
+
+	background-color:#DCDCDC;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	margin:0;
+}
+#add-player{
+	padding:10pt;
+}
+input{
+	background-color: #DCDCDC;
+	border: none;
+	border-bottom:solid 2pt #DCDCDC;
+	color:#808080;
+	font-size:23pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+input:focus{
+	border-bottom:solid 2pt #808080;
+	outline:none;
+}
+#plus{
+	display:inline-block;
+	width:25pt;
+	height:25pt;
+	background-color:#808080;
+	color:#DCDCDC;
+	cursor:pointer;
+	font-size:23pt;
+	text-align: center;
+}
+#players{
+	color:#666;
+	cursor:pointer;
+}
+.player{
+	height:25pt;
+	font-size:23pt;
+	padding:0.5em;
+	padding-left:1em;
+}
+.animate{
+	-moz-transition: background 150s ease;
+	-webkit-transition: background 150s ease;
+	-o-transition: background 150s ease;
+	-ms-transition: background 150s ease;
+	transition: background 150s ease;
+}
+
+.player:hover{
+	outline-color: white;
+	outline-width: 2pt;
+	outline-style: solid;
+}
+.count{
+	text-align: center;
+	color:white;
+	display:inline-block;
+	width:25pt;
+	height:25pt;
+	margin-left:-5px;
+	border-radius: 25pt 25pt 25pt 25pt;
+	background-color:#89898B;
+	margin-right: 20pt;
+}
+.name{
+	
+}
+.time{
+	padding-left:20pt;
+}
+
